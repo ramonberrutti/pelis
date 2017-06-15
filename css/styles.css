@@ -1,0 +1,767 @@
+
+/* Imagen  */
+.invertcolor 
+{
+   -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+.navbar-brand 
+{
+  padding: 0px;
+}
+
+.navbar-brand>img 
+{
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+
+/* Color de los botones de registrar/log y el usuario */
+.nav-username a
+{
+    color: #ffffff !important;
+}
+
+#quick-search-container 
+{
+    float: left;
+    /*margin-top: 5px;*/
+    position: relative;
+    margin-right: 6px;
+}
+
+/* Campo de busqueda rapido de peliculas */
+#quick-search-input 
+{
+    width: 250px;
+    height: 35px;
+    font-size: .85em;
+    font-weight: bold;
+    color: #919191;
+    border: 2px solid #333;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    padding: 4px 30px;
+    background: #1d1d1d url("/pelis/images/icon-search.svg") no-repeat 9px 8px;
+}
+
+/* Icono que gira cuando esta cargando */
+.ajax-spinner 
+{
+    background: url("/pelis/images/ajax-spinner.png") 0 0 no-repeat;
+    width: 16px;
+    height: 16px;
+    right: 10px;
+    top: 8px;
+    position: absolute;
+    display: none;
+}  
+
+/* Modal para el Login */
+.modal-switcher 
+{
+    cursor: pointer;
+    background: #eaeaea;
+    color: #999;
+    height: 70px;
+    border-radius: .25em .25em 0 0;
+    -moz-border-radius: .25em .25em 0 0;
+    -webkit-border-radius: .25em .25em 0 0;
+    line-height: 70px;
+    font-size: 1.2em;
+}
+
+.modal-switcher span 
+{
+    text-align: center;
+    width: 50%;
+    float: left;
+    /*display: inline-block;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.modal-switcher .selected 
+{
+    background: #fff;
+    color: #6ac045;
+    font-weight: bold;
+    letter-spacing: -1px;
+    border-radius: .25em .25em 0 0;
+    -moz-border-radius: .25em .25em 0 0;
+    -webkit-border-radius: .25em .25em 0 0;
+}
+
+.modal-content2 
+{
+    padding: 2em;
+}
+
+.modal-content2 .bottom-msg 
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -30px;
+    text-align: center;
+    font-size: .875em;
+}
+.modal-content2 .bottom-msg a
+{
+    color: #FFF;
+    text-decoration: underline !important;
+}
+.modal-content2 input 
+{
+    color: #333;
+    font-size: 14px;
+    border-radius: .25em;
+    -moz-border-radius: .25em;
+    -webkit-border-radius: .25em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 16px 20px 16px 50px;
+    border: 1px solid #d2d8d8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    /*appearance: none;*/
+    width: 100%;
+    height: 50px;
+    margin-bottom: 2em;
+}
+.modal-content2 input:focus 
+{
+    border-color: #6ac045;
+    box-shadow: 0 0 5px rgba(52, 54, 66, .1);
+    outline: 0;
+}
+
+/*Agregar el icono adentro del input */
+.inner-addon 
+{
+    position: relative;
+}
+.inner-addon .glyphicon 
+{
+    color: #eaeaea;
+    position: absolute;
+    padding: 15px;
+    font-size: 20px;
+    pointer-events: none;
+}
+
+.modal-content2 .button-green 
+{
+    border: 0;
+    width: 100%;
+    position: static;
+    height: 50px;
+}
+
+.button-green
+{
+    background: #6ac045;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    top: 35px;
+    font-size: 16px;
+    position: relative;
+    width: 130px;
+    padding: 7px 0;
+    margin: 0 auto;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.home-content .page-header h1
+{
+    text-align: center;
+}
+
+.browse-movie-wrap 
+{
+    margin-bottom: 15px;
+}
+
+.browse-movie-wrap a:focus 
+{
+    color: #fff;
+}
+
+/* En Cambio de Resolucion */
+@media(min-width:992px) 
+{
+    .browse-content .browse-movie-link 
+    {
+        width: 180px;
+        height: 265px;
+    }
+
+    .home-content figure img 
+    {
+        width: 210px;
+        height: 315px;
+    }
+}
+
+/* En Cambio de Resolucion */
+@media(min-width:768px) and (max-width:991px) 
+{
+    .browse-content .browse-movie-link 
+    {
+        width: 120px;
+        height: 175px;
+    }
+
+    .home-content figure img 
+    {
+        width: 150px;
+        height: 220px;
+    }
+}
+
+.home-content
+{
+    top: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.browse-movie-link 
+{
+    display: inline-block;
+    max-width: 220px;
+    border: 6px solid rgba(52, 54, 66, .25);
+    transition: border .15s ease-in-out;
+    -moz-transition: border .15s ease-in-out;
+    -webkit-transition: border .15s ease-in-out;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-size: 24px;
+}
+
+.browse-movie-link:hover
+{
+    border: 6px solid #6ac045;
+}
+
+.browse-movie-link:hover figcaption 
+{
+    opacity: 1;
+}
+
+.browse-movie-link:hover span.button-green 
+{
+    -moz-transform: translateY(-35px);
+    -webkit-transform: translateY(-35px);
+    transform: translateY(-35px);
+}
+
+@media(min-width:992px) 
+{
+    .browse-movie-link:hover figure img 
+    {
+        opacity: .45;
+        /*width: 100%*/
+    }
+}
+
+figure 
+{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+figure img 
+{
+    width: 100%;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+}
+
+figcaption 
+{
+    text-align: center;
+    color: white;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    transition-delay: 100ms;
+    padding-top: 20px;
+}
+
+figure figcaption h4 
+{
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-weight: bold;
+    color: #fff;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+
+figure figcaption .rating 
+{
+    margin-bottom: 20px;
+}
+
+.home-content figure figcaption .button-green 
+{
+    margin-top: 80px;
+}
+
+/* Abajo de la Imagen */
+.browse-movie-bottom 
+{
+    text-align: left;
+    margin: 0;
+    padding: 0 6px;
+    max-width: 220px;
+}
+
+@media(min-width:992px) 
+{
+    .browse-movie-title 
+    {
+        font-size: .95em;
+    }
+}
+
+@media(max-width:991px) 
+{
+    .browse-movie-title 
+    {
+        font-size: .85em;
+    }
+}
+
+.browse-movie-title, .browse-movie-title:focus
+{
+    color: rgba(52, 54, 66, 0.5);
+    font-weight: 700;
+    display: block;
+    transition: color .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+
+.browse-movie-title:hover 
+{
+    color: #919191;
+}
+
+.browse-movie-year 
+{
+    font-size: .85em;
+    color: #919191;
+}
+
+
+/* Bootstrap five colums https://blog.polarbits.co/2014/02/16/quick-tips-5-column-layout-with-twitter-bootstrap/ */
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.col-xs-15 
+{
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) 
+{
+    .col-sm-15
+    {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) 
+{
+    .col-md-15 
+    {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) 
+{
+    .col-lg-15 
+    {
+        width: 20%;
+        float: left;
+    }
+}
+
+/* Cuadro de Busqueda Rapida */
+.ac-results 
+{
+    display: none;
+    overflow: hidden;
+    z-index: 9;
+    margin: 0;
+    padding: 0;
+    top: 59px !important;
+    /*width: 250px !important;*/
+    text-align: left;
+    position: fixed !important; /* Para que este arriba */
+    border: 1px solid #2f2f2f;
+}
+
+.ac-results ul 
+{
+    list-style-position: outside;
+    list-style: none;
+    background: #1d1d1d;
+    margin: 0;
+    padding: 0; /* Contra el margen */
+}
+
+.ac-results li 
+{
+    cursor: pointer;
+    display: block;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #2f2f2f;
+    font-size: 14px;
+}
+
+.ac-results li:first-child
+{
+    border: 0;
+}
+
+.ac-results li a 
+{
+    display: block;
+    overflow: auto;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.ac-results li a img 
+{
+    width: 43px;
+    /*height: auto;*/
+    height: 63px;
+    float: left;
+    margin-right: 15px; /* Espacio entre la Imagen & el texto */
+}
+
+.ac-results li a p 
+{
+    font-size: 12px;
+    margin-top: 8px;
+    color: #919191;
+}
+
+.ac-no-results 
+{
+    cursor: auto !important;
+    padding: 20px !important;
+    background: #1d1d1d !important;
+    text-align: center;
+    font-size: 18px !important;
+}
+
+.ac-item-selected 
+{
+    background-color: #333;
+}
+
+/* Cambio de Resolucion */
+@media(min-width:992px) 
+{
+    #movie-content #movie-poster img 
+    {
+        height: 390px;
+    }
+}
+@media(min-width:768px) and (max-width:991px) 
+{
+    #movie-content #movie-poster img 
+    {
+        height: 288px;
+    }
+}
+
+/* Pading de los Bordes */
+#movie-content 
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#movie-poster 
+{
+    display: relative;
+}
+
+#movie-poster img 
+{
+   /*border: 5px solid #fff;*/
+    border: 6px solid rgba(52, 54, 66, .25);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    width: 100%;
+}
+
+#movie-info, #mobile-movie-info 
+{
+    text-align: left;
+}
+
+#movie-info h1, #movie-info h2, #mobile-movie-info h1, #mobile-movie-info h2, #info-page h1
+{
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+    margin: 0;
+}
+
+#movie-info p 
+{
+    font-size: 1.1em;
+}
+
+/* Usar este para las letras del inicio */
+#movie-info p a
+{
+    background: rgba(27, 27, 35, .4);
+    padding: 5px 12px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, .16);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-size: .8em;
+    color: #fff;
+    transition: color .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out;
+}
+
+#movie-info p a:hover 
+{
+    color: #d5d5d5;
+}
+
+#movie-info span.icon-star 
+{
+    color: #6ac045;
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+
+#movie-info span.icon-heart2, #movie-info span.icon-heart {
+    margin-right: 5px;
+    font-size: 1.1em;
+}
+
+#movie-info span.icon-heart2, #movie-info span.icon-heart, #comments .comment-likes span.icon-heart2, #comments .comment-likes span.icon-heart 
+{
+    color: #6ac045;
+    transition: color .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out;
+}
+
+#movie-info span.icon-heart2:hover, #comments .comment-likes span.icon-heart2:hover 
+{
+    color: #468f26;
+    cursor: pointer;
+}
+
+#movie-info span 
+{
+    font-weight: bold;
+}
+
+#movie-info .rating-row 
+{
+    margin-bottom: 5px;
+}
+
+#movie-info .rating-row .icon 
+{
+    display: inline-block;
+    margin: 0;
+}
+
+
+
+/* Comments */
+
+/*font Awesome http://fontawesome.io*/
+/*@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);*/
+/*Comment List styles*/
+.comment-list .row
+{
+  margin-bottom: 0px;
+
+  /*width: 50%;*/
+  margin: 0;
+}
+.comment-list .panel .panel-heading 
+{
+  padding: 4px 15px;
+  position: absolute;
+  border:none;
+  /*Panel-heading border radius*/
+  border-top-right-radius:0px;
+  top: 1px;
+}
+.comment-list .panel .panel-heading.right 
+{
+  border-right-width: 0px;
+  /*Panel-heading border radius*/
+  border-top-left-radius:0px;
+  right: 16px;
+}
+.comment-list .panel .panel-heading .panel-body 
+{
+  padding-top: 6px;
+}
+/* Portrait tablets and medium desktops */
+@media (min-width: 768px) 
+{
+  .comment-list .arrow:after, .comment-list .arrow:before 
+  {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before 
+  {
+    border-left: 0;
+  }
+  /*****Left Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.left:before 
+  {
+    left: 0px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-right-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.left:after 
+  {
+    left: 1px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-right-color: #FFFFFF;
+    border-width: 15px;
+  }
+  /*****Right Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.right:before 
+  {
+    right: -16px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-left-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.right:after 
+  {
+    right: -14px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-left-color: #FFFFFF;
+    border-width: 15px;
+  }
+}
+.comment-list .comment-post 
+{
+  margin-top: 6px;
+}
+
+
+/* no funciono poner el modal en el medio
+.modal, .modal-backdrop  
+{
+    position: absolute !important;
+}*/
+
+.image-preview-input 
+{
+    position: relative;
+	overflow: hidden;
+	margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] 
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title 
+{
+    margin-left:2px;
+}
+

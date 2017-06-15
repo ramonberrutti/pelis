@@ -1,0 +1,853 @@
+{
+    "extension": "linecount",
+    "version": "0.1.6",
+    "workspace": "d:\\xampp\\htdocs\\pelis",
+    "linecount": [
+        {
+            "version": "0.1.6",
+            "counttime": "2017-05-04 12:11:58",
+            "filesum": 66,
+            "codesum": 23667,
+            "commentsum": 2193,
+            "blanksum": 2943,
+            "filelist": [
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "ajax\\.htaccess"
+                },
+                {
+                    "blank": 5,
+                    "code": 75,
+                    "comment": 4,
+                    "filename": "index.php"
+                },
+                {
+                    "blank": 14,
+                    "code": 112,
+                    "comment": 2,
+                    "filename": "ajax\\admin.php"
+                },
+                {
+                    "blank": 6,
+                    "code": 48,
+                    "comment": 1,
+                    "filename": "ajax\\film.php"
+                },
+                {
+                    "blank": 6,
+                    "code": 53,
+                    "comment": 5,
+                    "filename": "ajax\\comment.php"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": ".htaccess"
+                },
+                {
+                    "blank": 4,
+                    "code": 23,
+                    "comment": 1,
+                    "filename": "images.php"
+                },
+                {
+                    "blank": 3,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "ajax\\forgot-password.php"
+                },
+                {
+                    "blank": 6,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "ajax\\login.php"
+                },
+                {
+                    "blank": 7,
+                    "code": 28,
+                    "comment": 3,
+                    "filename": "ajax\\search.php"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 4,
+                    "filename": "ajax\\register.php"
+                },
+                {
+                    "blank": 8,
+                    "code": 61,
+                    "comment": 4,
+                    "filename": "ajax\\star.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "css\\bootstrap-theme.min.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 6,
+                    "filename": "css\\bootstrap-theme.min.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "css\\bootstrap-theme.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 581,
+                    "comment": 6,
+                    "filename": "css\\bootstrap-theme.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 6742,
+                    "comment": 8,
+                    "filename": "css\\bootstrap.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 6,
+                    "filename": "css\\bootstrap.min.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "css\\bootstrap.css.map"
+                },
+                {
+                    "blank": 82,
+                    "code": 641,
+                    "comment": 44,
+                    "filename": "css\\styles.css"
+                },
+                {
+                    "blank": 11,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "contents\\admin.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "contents\\.htaccess"
+                },
+                {
+                    "blank": 20,
+                    "code": 115,
+                    "comment": 5,
+                    "filename": "contents\\film.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "contents\\footer.php"
+                },
+                {
+                    "blank": 7,
+                    "code": 87,
+                    "comment": 0,
+                    "filename": "contents\\login.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "css\\fonts.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "contents\\header.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "contents\\user.php"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "contents\\search.php"
+                },
+                {
+                    "blank": 12,
+                    "code": 78,
+                    "comment": 5,
+                    "filename": "contents\\main.php"
+                },
+                {
+                    "filename": "fonts\\glyphicons-halflings-regular.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 288,
+                    "comment": 0,
+                    "filename": "fonts\\glyphicons-halflings-regular.svg"
+                },
+                {
+                    "filename": "fonts\\glyphicons-halflings-regular.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 582,
+                    "code": 1597,
+                    "comment": 226,
+                    "filename": "js\\bootstrap.js"
+                },
+                {
+                    "filename": "fonts\\glyphicons-halflings-regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "fonts\\glyphicons-halflings-regular.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 5,
+                    "filename": "js\\bootstrap.min.js"
+                },
+                {
+                    "blank": 1934,
+                    "code": 6619,
+                    "comment": 1693,
+                    "filename": "js\\jquery-3.2.0.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "js\\npm.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5308,
+                    "comment": 8,
+                    "filename": "css\\style.css"
+                },
+                {
+                    "filename": "images\\ajax-spinner.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "images\\icon-search.svg"
+                },
+                {
+                    "blank": 103,
+                    "code": 578,
+                    "comment": 77,
+                    "filename": "js\\scripts.js"
+                },
+                {
+                    "filename": "images\\ajax-spinner.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "test\\addgenero.php"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 1,
+                    "filename": "test\\subir.php"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "test\\logout.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "test\\subir2.php"
+                },
+                {
+                    "filename": "images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "test\\.htaccess"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "js\\modded1.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 23,
+                    "comment": 9,
+                    "filename": "lang\\lang.en.php"
+                },
+                {
+                    "blank": 9,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "test\\test.php"
+                },
+                {
+                    "blank": 8,
+                    "code": 10,
+                    "comment": 8,
+                    "filename": "lang\\lang.pt.php"
+                },
+                {
+                    "blank": 9,
+                    "code": 22,
+                    "comment": 9,
+                    "filename": "lang\\lang.es.php"
+                },
+                {
+                    "blank": 13,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "util\\Comment.php"
+                },
+                {
+                    "blank": 10,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "util\\User.php"
+                },
+                {
+                    "blank": 8,
+                    "code": 9,
+                    "comment": 19,
+                    "filename": "lang\\lang.php"
+                },
+                {
+                    "blank": 11,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "util\\Film.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "util\\.htaccess"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 7,
+                    "filename": "util\\config.php"
+                },
+                {
+                    "blank": 8,
+                    "code": 8,
+                    "comment": 20,
+                    "filename": "util\\install.php"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "util\\closedb.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "css\\bootstrap.min.css.map"
+                },
+                {
+                    "blank": 4,
+                    "code": 8,
+                    "comment": 2,
+                    "filename": "util\\opendb.php"
+                },
+                {
+                    "filename": "images\\logo2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                }
+            ]
+        },
+        {
+            "version": "0.1.6",
+            "counttime": "2017-05-05 19:46:41",
+            "filesum": 69,
+            "codesum": 23786,
+            "commentsum": 2236,
+            "blanksum": 2972,
+            "filelist": [
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": ".htaccess"
+                },
+                {
+                    "blank": 25,
+                    "code": 91,
+                    "comment": 1,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 5,
+                    "code": 75,
+                    "comment": 4,
+                    "filename": "index.php"
+                },
+                {
+                    "blank": 4,
+                    "code": 23,
+                    "comment": 1,
+                    "filename": "images.php"
+                },
+                {
+                    "blank": 14,
+                    "code": 112,
+                    "comment": 2,
+                    "filename": "ajax\\admin.php"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "ajax\\.htaccess"
+                },
+                {
+                    "blank": 6,
+                    "code": 48,
+                    "comment": 1,
+                    "filename": "ajax\\film.php"
+                },
+                {
+                    "blank": 8,
+                    "code": 36,
+                    "comment": 5,
+                    "filename": "ajax\\register.php"
+                },
+                {
+                    "blank": 3,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "ajax\\forgot-password.php"
+                },
+                {
+                    "blank": 6,
+                    "code": 53,
+                    "comment": 5,
+                    "filename": "ajax\\comment.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 581,
+                    "comment": 6,
+                    "filename": "css\\bootstrap-theme.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "css\\bootstrap-theme.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "css\\bootstrap-theme.min.css.map"
+                },
+                {
+                    "blank": 6,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "ajax\\login.php"
+                },
+                {
+                    "blank": 7,
+                    "code": 28,
+                    "comment": 3,
+                    "filename": "ajax\\search.php"
+                },
+                {
+                    "blank": 7,
+                    "code": 6742,
+                    "comment": 8,
+                    "filename": "css\\bootstrap.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 61,
+                    "comment": 4,
+                    "filename": "ajax\\star.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 6,
+                    "filename": "css\\bootstrap-theme.min.css"
+                },
+                {
+                    "blank": 82,
+                    "code": 640,
+                    "comment": 45,
+                    "filename": "css\\styles.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "css\\bootstrap.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "css\\fonts.css"
+                },
+                {
+                    "filename": "fonts\\glyphicons-halflings-regular.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "fonts\\glyphicons-halflings-regular.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 6,
+                    "filename": "css\\bootstrap.min.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "css\\styles.min.css"
+                },
+                {
+                    "filename": "fonts\\glyphicons-halflings-regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "fonts\\glyphicons-halflings-regular.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "contents\\header.php"
+                },
+                {
+                    "blank": 20,
+                    "code": 115,
+                    "comment": 5,
+                    "filename": "contents\\film.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "contents\\.htaccess"
+                },
+                {
+                    "blank": 7,
+                    "code": 87,
+                    "comment": 0,
+                    "filename": "contents\\login.php"
+                },
+                {
+                    "blank": 12,
+                    "code": 78,
+                    "comment": 5,
+                    "filename": "contents\\main.php"
+                },
+                {
+                    "blank": 9,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "contents\\admin.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "contents\\user.php"
+                },
+                {
+                    "filename": "images\\ajax-spinner.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "images\\icon-search.svg"
+                },
+                {
+                    "filename": "images\\ajax-spinner.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "contents\\footer.php"
+                },
+                {
+                    "blank": 582,
+                    "code": 1597,
+                    "comment": 226,
+                    "filename": "js\\bootstrap.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "contents\\search.php"
+                },
+                {
+                    "filename": "images\\logo2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1934,
+                    "code": 6619,
+                    "comment": 1693,
+                    "filename": "js\\jquery-3.2.0.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 288,
+                    "comment": 0,
+                    "filename": "fonts\\glyphicons-halflings-regular.svg"
+                },
+                {
+                    "blank": 106,
+                    "code": 592,
+                    "comment": 77,
+                    "filename": "js\\scripts.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 5,
+                    "filename": "js\\bootstrap.min.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 23,
+                    "comment": 9,
+                    "filename": "lang\\lang.en.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "js\\npm.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 9,
+                    "comment": 19,
+                    "filename": "lang\\lang.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "js\\scripts.min.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "util\\Comment.php"
+                },
+                {
+                    "blank": 9,
+                    "code": 22,
+                    "comment": 9,
+                    "filename": "lang\\lang.es.php"
+                },
+                {
+                    "blank": 11,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "util\\Film.php"
+                },
+                {
+                    "blank": 10,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "util\\User.php"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "util\\closedb.php"
+                },
+                {
+                    "blank": 8,
+                    "code": 10,
+                    "comment": 8,
+                    "filename": "lang\\lang.pt.php"
+                },
+                {
+                    "blank": 5,
+                    "code": 13,
+                    "comment": 3,
+                    "filename": "util\\opendb.php"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 7,
+                    "filename": "util\\config.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "util\\.htaccess"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "test\\.htaccess"
+                },
+                {
+                    "blank": 12,
+                    "code": 8,
+                    "comment": 59,
+                    "filename": "util\\install.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "test\\addgenero.php"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "test\\logout.php"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 1,
+                    "filename": "test\\subir.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "js\\modded1.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "test\\subir2.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "css\\bootstrap.min.css.map"
+                },
+                {
+                    "blank": 9,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "test\\test.php"
+                },
+                {
+                    "blank": 1,
+                    "code": 5308,
+                    "comment": 8,
+                    "filename": "test\\style.css"
+                }
+            ]
+        }
+    ]
+}

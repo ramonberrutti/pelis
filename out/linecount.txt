@@ -1,0 +1,159 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.6
+-------------------------------------------------------------------------------
+count time : 2017-05-04 12:11:58
+count workspace : d:\xampp\htdocs\pelis
+total files : 66
+total code lines : 23667
+total comment lines : 2193
+total blank lines : 2943
+
+ajax\.htaccess, code is 7, comment is 0, blank is 2.
+index.php, code is 75, comment is 4, blank is 5.
+ajax\admin.php, code is 112, comment is 2, blank is 14.
+ajax\film.php, code is 48, comment is 1, blank is 6.
+ajax\comment.php, code is 53, comment is 5, blank is 6.
+.htaccess, code is 4, comment is 0, blank is 1.
+images.php, code is 23, comment is 1, blank is 4.
+ajax\forgot-password.php, code is 3, comment is 0, blank is 3.
+ajax\login.php, code is 25, comment is 1, blank is 6.
+ajax\search.php, code is 28, comment is 3, blank is 7.
+ajax\register.php, code is 28, comment is 4, blank is 8.
+ajax\star.php, code is 61, comment is 4, blank is 8.
+css\bootstrap-theme.min.css.map, code is 1, comment is 0, blank is 0.
+css\bootstrap-theme.min.css, code is 1, comment is 6, blank is 0.
+css\bootstrap-theme.css.map, code is 1, comment is 0, blank is 0.
+css\bootstrap-theme.css, code is 581, comment is 6, blank is 0.
+css\bootstrap.css, code is 6742, comment is 8, blank is 7.
+css\bootstrap.min.css, code is 1, comment is 6, blank is 0.
+css\bootstrap.css.map, code is 1, comment is 0, blank is 0.
+css\styles.css, code is 641, comment is 44, blank is 82.
+contents\admin.php, code is 84, comment is 0, blank is 11.
+contents\.htaccess, code is 1, comment is 0, blank is 0.
+contents\film.php, code is 115, comment is 5, blank is 20.
+contents\footer.php, code is 38, comment is 0, blank is 0.
+contents\login.php, code is 87, comment is 0, blank is 7.
+css\fonts.css, code is 84, comment is 0, blank is 0.
+contents\header.php, code is 47, comment is 0, blank is 7.
+contents\user.php, code is 0, comment is 0, blank is 0.
+contents\search.php, code is 2, comment is 0, blank is 2.
+contents\main.php, code is 78, comment is 5, blank is 12.
+fonts\glyphicons-halflings-regular.eot, it is a binary file.
+fonts\glyphicons-halflings-regular.svg, code is 288, comment is 0, blank is 0.
+fonts\glyphicons-halflings-regular.woff2, it is a binary file.
+js\bootstrap.js, code is 1597, comment is 226, blank is 582.
+fonts\glyphicons-halflings-regular.ttf, it is a binary file.
+fonts\glyphicons-halflings-regular.woff, it is a binary file.
+js\bootstrap.min.js, code is 2, comment is 5, blank is 0.
+js\jquery-3.2.0.js, code is 6619, comment is 1693, blank is 1934.
+js\npm.js, code is 12, comment is 1, blank is 0.
+css\style.css, code is 5308, comment is 8, blank is 1.
+images\ajax-spinner.gif, it is a binary file.
+images\icon-search.svg, code is 7, comment is 0, blank is 0.
+js\scripts.js, code is 578, comment is 77, blank is 103.
+images\ajax-spinner.png, it is a binary file.
+test\addgenero.php, code is 5, comment is 0, blank is 0.
+test\subir.php, code is 21, comment is 1, blank is 5.
+test\logout.php, code is 6, comment is 1, blank is 2.
+test\subir2.php, code is 9, comment is 0, blank is 0.
+images\logo.png, it is a binary file.
+test\.htaccess, code is 4, comment is 0, blank is 0.
+js\modded1.js, code is 2, comment is 1, blank is 0.
+lang\lang.en.php, code is 23, comment is 9, blank is 11.
+test\test.php, code is 13, comment is 0, blank is 9.
+lang\lang.pt.php, code is 10, comment is 8, blank is 8.
+lang\lang.es.php, code is 22, comment is 9, blank is 9.
+util\Comment.php, code is 37, comment is 0, blank is 13.
+util\User.php, code is 44, comment is 0, blank is 10.
+lang\lang.php, code is 9, comment is 19, blank is 8.
+util\Film.php, code is 51, comment is 0, blank is 11.
+util\.htaccess, code is 1, comment is 0, blank is 0.
+util\config.php, code is 7, comment is 7, blank is 5.
+util\install.php, code is 8, comment is 20, blank is 8.
+util\closedb.php, code is 3, comment is 1, blank is 2.
+css\bootstrap.min.css.map, code is 1, comment is 0, blank is 0.
+util\opendb.php, code is 8, comment is 2, blank is 4.
+images\logo2.png, it is a binary file.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.6
+-------------------------------------------------------------------------------
+count time : 2017-05-05 19:46:41
+count workspace : d:\xampp\htdocs\pelis
+total files : 69
+total code lines : 23786
+total comment lines : 2236
+total blank lines : 2972
+
+.htaccess, code is 4, comment is 0, blank is 1.
+README.md, code is 91, comment is 1, blank is 25.
+index.php, code is 75, comment is 4, blank is 5.
+images.php, code is 23, comment is 1, blank is 4.
+ajax\admin.php, code is 112, comment is 2, blank is 14.
+ajax\.htaccess, code is 7, comment is 0, blank is 2.
+ajax\film.php, code is 48, comment is 1, blank is 6.
+ajax\register.php, code is 36, comment is 5, blank is 8.
+ajax\forgot-password.php, code is 3, comment is 0, blank is 3.
+ajax\comment.php, code is 53, comment is 5, blank is 6.
+css\bootstrap-theme.css, code is 581, comment is 6, blank is 0.
+css\bootstrap-theme.css.map, code is 1, comment is 0, blank is 0.
+css\bootstrap-theme.min.css.map, code is 1, comment is 0, blank is 0.
+ajax\login.php, code is 25, comment is 1, blank is 6.
+ajax\search.php, code is 28, comment is 3, blank is 7.
+css\bootstrap.css, code is 6742, comment is 8, blank is 7.
+ajax\star.php, code is 61, comment is 4, blank is 8.
+css\bootstrap-theme.min.css, code is 1, comment is 6, blank is 0.
+css\styles.css, code is 640, comment is 45, blank is 82.
+css\bootstrap.css.map, code is 1, comment is 0, blank is 0.
+css\fonts.css, code is 84, comment is 0, blank is 0.
+fonts\glyphicons-halflings-regular.eot, it is a binary file.
+fonts\glyphicons-halflings-regular.woff2, it is a binary file.
+css\bootstrap.min.css, code is 1, comment is 6, blank is 0.
+css\styles.min.css, code is 1, comment is 0, blank is 0.
+fonts\glyphicons-halflings-regular.ttf, it is a binary file.
+fonts\glyphicons-halflings-regular.woff, it is a binary file.
+contents\header.php, code is 47, comment is 0, blank is 7.
+contents\film.php, code is 115, comment is 5, blank is 20.
+contents\.htaccess, code is 1, comment is 0, blank is 0.
+contents\login.php, code is 87, comment is 0, blank is 7.
+contents\main.php, code is 78, comment is 5, blank is 12.
+contents\admin.php, code is 84, comment is 0, blank is 9.
+contents\user.php, code is 0, comment is 0, blank is 0.
+images\ajax-spinner.gif, it is a binary file.
+images\icon-search.svg, code is 7, comment is 0, blank is 0.
+images\ajax-spinner.png, it is a binary file.
+contents\footer.php, code is 38, comment is 0, blank is 0.
+js\bootstrap.js, code is 1597, comment is 226, blank is 582.
+contents\search.php, code is 2, comment is 0, blank is 2.
+images\logo2.png, it is a binary file.
+images\logo.png, it is a binary file.
+js\jquery-3.2.0.js, code is 6619, comment is 1693, blank is 1934.
+fonts\glyphicons-halflings-regular.svg, code is 288, comment is 0, blank is 0.
+js\scripts.js, code is 592, comment is 77, blank is 106.
+js\bootstrap.min.js, code is 2, comment is 5, blank is 0.
+lang\lang.en.php, code is 23, comment is 9, blank is 9.
+js\npm.js, code is 12, comment is 1, blank is 0.
+lang\lang.php, code is 9, comment is 19, blank is 8.
+js\scripts.min.js, code is 1, comment is 0, blank is 0.
+util\Comment.php, code is 37, comment is 0, blank is 13.
+lang\lang.es.php, code is 22, comment is 9, blank is 9.
+util\Film.php, code is 51, comment is 0, blank is 11.
+util\User.php, code is 44, comment is 0, blank is 10.
+util\closedb.php, code is 3, comment is 1, blank is 2.
+lang\lang.pt.php, code is 10, comment is 8, blank is 8.
+util\opendb.php, code is 13, comment is 3, blank is 5.
+util\config.php, code is 7, comment is 7, blank is 5.
+util\.htaccess, code is 1, comment is 0, blank is 0.
+test\.htaccess, code is 4, comment is 0, blank is 0.
+util\install.php, code is 8, comment is 59, blank is 12.
+test\addgenero.php, code is 5, comment is 0, blank is 0.
+test\logout.php, code is 6, comment is 1, blank is 2.
+test\subir.php, code is 21, comment is 1, blank is 5.
+js\modded1.js, code is 2, comment is 1, blank is 0.
+test\subir2.php, code is 9, comment is 0, blank is 0.
+css\bootstrap.min.css.map, code is 1, comment is 0, blank is 0.
+test\test.php, code is 13, comment is 0, blank is 9.
+test\style.css, code is 5308, comment is 8, blank is 1.
+===============================================================================

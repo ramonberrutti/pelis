@@ -1,0 +1,9 @@
+<Files *.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
